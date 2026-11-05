@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Projects – AquaFix</title>
+  <meta name="description" content="Browse examples of AquaFix residential, commercial, and emergency plumbing projects.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><div class="container"><span>🚨 24/7 emergency service</span><a href="tel:+15550000000" data-phone>+1 (555) 000-0000</a></div></div>
+<header class="header" id="top">
+  <div class="container header__inner">
+    <a href="index.html" class="logo"><span class="logo__mark">💧</span> AquaFix</a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a href="projects.html" aria-current="page">Projects</a><a href="contact.html" class="btn btn--small">Book Now</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<main>
+  <section class="page-hero"><div class="container"><div class="crumbs"><a href="index.html">Home</a> / Projects</div><h1>Our Recent Projects</h1><p>A selection of plumbing work completed for local homes and businesses.</p></div></section>
+  <section class="section"><div class="container">
+    <div class="filters" aria-label="Filter projects">
+      <button class="chip is-active" data-filter="all">All projects</button><button class="chip" data-filter="home">Residential</button><button class="chip" data-filter="commercial">Commercial</button><button class="chip" data-filter="emergency">Emergency</button>
+    </div>
+    <div class="gallery" id="gallery"></div>
+  </div></section>
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal__box"><button class="modal__close" id="modalClose" aria-label="Close project details">×</button><div class="tile__img" id="modalImg"></div><div class="modal__content"><h2 id="modalTitle"></h2><p id="modalDesc"></p></div></div>
+  </div>
+  <section class="cta"><div class="container"><div><h2>Have a project in mind?</h2><p>Tell us what you need and we will help plan the next step.</p></div><a href="contact.html" class="btn btn--orange">Contact Us</a></div></section>
+</main>
+<footer class="footer"><div class="container"><div class="footer__grid">
+  <div><a href="index.html" class="logo"><span class="logo__mark">💧</span> AquaFix</a><p>Fast, clean and guaranteed plumbing services.</p></div>
+  <div><h4>Pages</h4><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+  <div><h4>Services</h4><ul><li>Leak repair</li><li>Drain cleaning</li><li>Installation</li><li>Emergency call-outs</li></ul></div>
+  <div><h4>Contact</h4><ul><li><a href="tel:+15550000000" data-phone>+1 (555) 000-0000</a></li><li><a href="mailto:hello@aquafix.example" data-email>hello@aquafix.example</a></li><li data-address>123 Main Street, Your City</li></ul></div>
+</div><div class="footer__bottom"><span>© <span class="js-year"></span> AquaFix. All rights reserved.</span><a href="#top">Back to top ↑</a></div></div></footer>
+<script src="scripts.js"></script>
+</body>
+</html>
